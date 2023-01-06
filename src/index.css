@@ -1,0 +1,108 @@
+body {
+  background-color: #161B22;
+  color: #1F6FEB;
+  margin: 0;
+  font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a:hover{
+  color: brown;
+}
+input#text{
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  font-size: medium;
+  background-color: #0D1117;
+  color: white;
+  display: flex;
+  margin: auto;
+}
+#submitTask{
+  border-radius: 5px;
+  background-color: green;
+  opacity: 80%;
+  color: white;
+  font-weight: bold;
+  border:none;
+  padding: 10px 30px;
+  display: flex;
+  padding: auto;
+  cursor: pointer;
+  margin: auto;
+}
+
+#submitTask:hover{
+  transition-duration: 0.5s;
+  opacity: 100%;
+}
+
+nav{
+  z-index: 2;
+  display: flex;
+  background-color: #0D1117;
+  position: sticky;
+  top: 0;
+}
+
+div.tasks{
+  height: 25px;
+  font-family: Play;
+  position: relative;
+  margin: 10px 20px;
+  font-size: large;
+  background-color: rgb(19, 35, 58);
+  color: #1F6FEB;
+  border-radius: 5px; 
+  padding: 0px 5px; 
+  cursor: pointer;
+}
+div.tasks:hover{
+  transition-duration: 0.5s;
+  background-color: #1F6FEB;
+  color: white;
+}
+input.delete{ 
+  cursor: pointer;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: white;
+  padding: 3px;
+  color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute; 
+  bottom: 1px;
+  right: 3px;
+}
+
+p.developer{
+  border-radius: 0px 3px 0px 0px;
+  max-width: fit-content;
+  padding: 5px;
+  background-color: #0D1117;
+  font-family: monospace;
+  position: fixed;
+  font-size: xx-small;
+  bottom: -10px;
+  color: blanchedalmond;
+}
+
+input.delete:hover{
+  transition-duration: 0.5s;
+  background-color: red;
+  color: white;
+}
+
+
+strong{
+  color: #1F6FEB;
+}
+strong:hover{
+  transition-duration: 0.3s;
+  color: red;
+}
